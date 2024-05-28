@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    /*background-color: rgb(199, 178, 143)*/
+    background: linear-gradient(rgb(153, 61, 0), rgb(253, 127, 68));
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10%;
+}
+
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+    
+    background-image: url(ImagensCs/LKfondo.jpg);
+    background-size: cover;
+}
+
+.in-flex img{
+    border-radius: 30%;
+    width: 65%;
+    padding: 15px;
+    background-color: #666f70;
+    margin: 10px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+h1{
+    color: #c7c7c7; text-shadow: 5px 5px 5px #000000, 5px 5px 5px #000000; 
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+p{
+    color: #f5f5f5; text-shadow: 5px 5px 5px #000000, 5px 5px 5px #000000; 
+    font-size: 25px;
+    
+}

@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+   background-color: #000;
+    
+}
+
+.sec1{
+    background-image: url(Parallax/Tokyo7.jpg);
+    filter: brightness(0.8);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.sec2{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(Parallax/tokyo9.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background-image: url(Parallax/playa2.jpeg);
+    filter: brightness(0.8);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*
+.sec4{
+    background: url(Parallax/Rusia4.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+section{
+    width: 100%;
+    height: 95vh;
+
+}
+
+.contain{
+    border-radius: 500px;
+    width: 100%;
+    height: 55px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contain p{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 55px;
+
+}
+.juntar{
+    /*in-width: 300px;*/
+    display: flex;
+    height: 300px;
+}
+
+a img {
+    cursor: pointer /* Cambia el cursor a una mano al pasar el mouse sobre la imagen */
+  }
+  
+  a img:hover {
+    opacity: 0.8; /* Reduce la opacidad de la imagen al pasar el mouse sobre ella */
+  }
+
+.part1{
+    
+    display: flex;
+    margin-left: 3%;
+    width: 50%;
+}
+
+.part1 img{
+    filter: brightness(0.7);
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 70px;
+}
+
+.part2{
+    margin-left: 2%;
+    width: 50%;
+}
+
+.part2 img{
+    filter: brightness(0.7);
+    padding: 15px;
+    border-radius: 70px;
+}
+
+.part3{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.part3 img {
+    
+    padding: 15px;
+    border-radius: 70px;
+}
+
+#edit1{
+    filter: brightness(1.0);
+    width: 260px;
+    height: 200px;
+    margin-top: 70px;
+}
+
+#edit1-1{
+    filter: brightness(1.9);
+    width: 260px;
+    height: 220px;
+    margin-top: 50px;
+}
+
+
+#edit2{
+    width: 200px;
+    height: 300px;
+    filter: brightness(1.3)
+}
+
+#edit2-2{
+    width: 200px;
+    height: 300px;
+    filter: brightness(1.3)
+}
+
+#edit3{
+    width: 350px;
+    height: 230px;
+    filter: brightness(0.9);
+}
+
+#edit4{
+    filter: brightness(0.9);
+    width: 190px;
+    height: 250px;
+}
+
+#edit5{
+    width: 150px;
+    height: 250px;
+}
+
+#edit6{
+    width: 200px;
+    height: 250px;
+    filter: brightness(1.1)
+}
+#edit7{
+    width: 300px;
+    height: 200px;
+}
+#edit8{
+    width: 300px;
+    height: 250px;
+}
+#cum{
+    font-family: "Roboto";
+    color: rgb(196, 154, 154);
+    margin-top: 200px;
+    margin-left: 150px;
+    color: #ffdfdf; text-shadow: 10px 10px 10px #554700, 10px 10px 10px #ff6200; 
+
+}
+
+#cum p{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 3.5));
+    font-weight: 800;
+    font-size: 75px;
+    
+}
+
+.capa1{
+    box-sizing: content-box;
+
+}
+.capa1 img, .capa2 img, .capa3 img, .capa4 img {
+        border-radius: 100%;
+        margin-left: 12%;
+        margin-top: 20px;
+        width: 170px;
+        height: 170px;
+}
+
+#LBack{
+    filter: brightness(0.7);
+}
+#LBBW{
+    filter: brightness(0.7);
+}
+#LGato{
+    filter: brightness(0.7);
+}
+#LRey{
+    filter: brightness(0.8);
+}
+
+
+.final{
+
+    padding-top: 20%;
+    margin-left: 45%;
+}
+
+.numero{
+    width: 310px;
+    height: 310px;
+    border-radius: 100%;
+    background-image: url(ImagensCs/logo1.avif);
+    font-size: 155px;
+    text-align: center;
+    padding-top: 50px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+
+@media (max-width: 1700px){
+
+    .part1, .part2, .part3 {
+        width: 100%;
+        margin: 0;
+        display: flex;
+       /* flex-wrap: wrap;
+        justify-content: center;
+        border: 1px azure solid;*/
+    }
+
+
+    .contain p{
+        font-size: 29px;
+    }
+    #edit1{
+        filter: brightness(1.0);
+        width: 260px;
+        height: 200px;
+       
+    }
+    
+    #edit1-1{
+        filter: brightness(1.9);
+        width: 260px;
+        height: 220px;
+        margin-top: 50px;
+    }
+    
+    
+    #edit2{
+        width: 170px;
+        height: 300px;
+        filter: brightness(1.3)
+    }
+
+    #edit2-2{
+        width: 200px;
+        height: 300px;
+        filter: brightness(1.3)
+    }
+
+    #edit3{
+        width: 350px;
+        height: 230px;
+        filter: brightness(0.9);
+    }
+    
+    #edit4{
+        filter: brightness(0.9);
+        width: 190px;
+        height: 250px;
+    }
+    
+    #edit5{
+        width: 150px;
+        height: 250px;
+    }
+    
+    #edit6{
+        width: 200px;
+        height: 250px;
+        filter: brightness(1.1)
+    }
+    #edit7{
+        width: 300px;
+        height: 200px;
+    }
+    #edit8{
+        width: 250px;
+        height: 250px;
+
+    }
+
+    #cum{
+        
+        font-family: "Roboto";
+        color: rgb(196, 154, 154);
+        margin-top: 250px;
+        margin-left: 10px;
+        color: #ffdfdf; text-shadow: 10px 10px 10px #554700, 10px 10px 10px #ff6200; 
+    
+    }
+    
+    #cum p{
+        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 3.5));
+        font-weight: 800;
+        font-size: 45px;
+        
+    }
+
+    .capa1 img, .capa2 img, .capa3 img, .capa4 img {
+        margin-left: 10%;
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+
+/* Para dispositivos con un ancho máximo de 1200px */
+@media (max-width: 1200px) {
+    .part1, .part2, .part3 {
+        width: 100%;
+        margin: 0;
+       /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;*/
+    }
+
+    .part1 img, .part2 img, .part3 img {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #cum p {
+        font-size: 35px;
+    }
+
+    .capa1 img, .capa2 img, .capa3 img, .capa4 img {
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 170px;
+        height: 170px;
+    }
+
+    #edit1{
+        filter: brightness(1.0);
+        width: 200px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    
+    #edit1-1{
+        filter: brightness(1.9);
+        width: 200px;
+        height: 160px;
+        margin-top: 50px;
+    }
+    
+    
+    #edit2{
+        width: 150px;
+        height: 220px;
+        filter: brightness(1.3);
+        
+    }
+    
+    #edit2-2{
+        width: 150px;
+        height: 220px;
+        filter: brightness(1.3);
+        
+    }
+
+    #edit3{
+        width: 240px;
+        height: 180px;
+        filter: brightness(0.9);
+        
+    }
+    
+    #edit4{
+        filter: brightness(0.9);
+        width: 130px;
+        height: 180px;
+        
+    }
+    
+    #edit5{
+        width: 130px;
+        height: 190px;
+        
+    }
+    
+    #edit6{
+        width: 150px;
+        height: 190px;
+        filter: brightness(1.1);
+        
+        
+    }
+    #edit7{
+        width: 230px;
+        height: 130px;
+    }
+    #edit8{
+        width: 200px;
+        height: 180px;
+    }
+
+
+}
+
+/* Para dispositivos con un ancho máximo de 768px */
+@media (max-width: 880px) {
+    .part1, .part2, .part3 {
+        width: 100%;
+        margin: 0;
+       /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;*/
+    }
+
+    .part1 img, .part2 img, .part3 img {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #cum p {
+        font-size: 25px;
+    }
+
+    .contain p{
+        font-size: 25px;
+    }
+    .capa1 img, .capa2 img, .capa3 img, .capa4 img {
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 120px;
+        height: 120px;
+    }
+
+    #edit1{
+        filter: brightness(1.0);
+        width: 180px;
+        height: 130px;
+        margin-top: 50px;
+    }
+    
+    #edit1-1{
+        filter: brightness(1.9);
+        width: 180px;
+        height: 130px;
+        margin-top: 50px;
+    }
+    
+    
+    #edit2{
+        width: 130px;
+        height: 190px;
+        filter: brightness(1.3);
+        
+    }
+    
+    #edit2-2{
+        width: 120px;
+        height: 190px;
+        filter: brightness(1.3);
+        
+    }
+
+    #edit3{
+        width: 210px;
+        height: 130px;
+        filter: brightness(0.9);
+        
+    }
+    
+    #edit4{
+        filter: brightness(0.9);
+        width: 110px;
+        height: 140px;
+        
+    }
+    
+    #edit5{
+        width: 110px;
+        height: 150px;
+        
+    }
+    
+    #edit6{
+        width: 110px;
+        height: 150px;
+        filter: brightness(1.1);
+        
+        
+    }
+    #edit7{
+        width: 190px;
+        height: 110px;
+    }
+    #edit8{
+        width: 170px;
+        height: 150px;
+    }
+
+}
+
+/* Para dispositivos con un ancho máximo de 480px */
+@media (max-width: 630px)  {
+    .part1, .part2, .part3 {
+        width: 100%;
+        margin: 0;
+       /* display: flex;
+        flex-wrap: wrap;
+       /* justify-content: center;*/
+    }
+
+
+    .part1 img, .part2 img, .part3 img {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 100%;
+    }
+ 
+
+    #cum p {
+        margin-left: -150px;
+        font-size: 25px;
+    }
+
+    .contain p{
+        font-size: 15px;
+    }
+    .capa1 img, .capa2 img, .capa3 img, .capa4 img {
+        margin-left: 0%;
+        margin-top: 80px;
+        width: 90px;
+        height: 80px;
+    }
+
+    #edit1{
+        filter: brightness(1.0);
+        width: 105px;
+        height: 110px;
+        margin-top: 0px;
+    }
+    
+    #edit1-1{
+        filter: brightness(1.9);
+        width: 100px;
+        height: 110px;
+        margin-top: 0px;
+    }
+    
+    
+    #edit2{
+        width: 100px;
+        height: 140px;
+        filter: brightness(1.3);
+        
+    }
+    
+    #edit2-2{
+        width: 90px;
+        height: 130px;
+        filter: brightness(1.3);
+        
+    }
+
+    #edit3{
+        width: 90px;
+        height: 100px;
+        filter: brightness(0.9);
+        
+        margin-top: -100px;
+        
+    }
+    
+    #edit4{
+        filter: brightness(0.9);
+        width: 80px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: -100px;
+    }
+    
+    #edit5{
+        width: 80px;
+        height: 100px;
+        margin-top: 50px;
+        
+    }
+    
+    #edit6{
+        width: 80px;
+        height: 100px;
+        filter: brightness(1.1);
+        margin-top: 50px;
+        
+    }
+    #edit7{
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
+    #edit8{
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
+
+    .final{
+
+        padding-top: 20%;
+        margin-left: 45%;
+    }
+    
+    .numero{
+        width: 110px;
+        height: 110px;
+        border-radius: 100%;
+        background-image: url(ImagensCs/logo1.avif);
+        font-size: 55px;
+        text-align: center;
+        padding-top: 20px;
+        background-position: center;
+        background-size: cover;
+        filter: brightness(0.8);
+    }
+
+}
